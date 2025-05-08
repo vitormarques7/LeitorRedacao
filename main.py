@@ -1,6 +1,6 @@
 import cv2
 
-imagens = ["imgRedacao1.jpg", "imgRedacao2.jpg", "imgRedacao3.jpg"]
+imagens = ["imgRedacao1.jpg", "imgRedacao2.jpg"]
 
 for nome_imagem in imagens:
     imagem = cv2.imread(nome_imagem)
